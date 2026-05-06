@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "rootDir": "./src",
     "outDir": "lib/esm",
     "module": "esnext",
     "target": "ES2018",
@@ -9,7 +10,7 @@
     "jsx": "react",
     "declaration": true,
     "declarationMap": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
@@ -22,5 +23,12 @@
     "skipLibCheck": true
   },
   "include": ["src"],
-  "exclude": ["node_modules", "build", "dist", "lib", "example", "rollup.config.js"]
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "lib",
+    "example",
+    "rollup.config.js"
+  ]
 }
