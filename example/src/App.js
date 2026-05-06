@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FedaCheckoutButton, FedaCheckoutContainer } from 'fedapay-reactjs';
+import { FedaCheckoutButton, FedaCheckoutContainer } from '@gajonedev/fedapay-react';
 
 export default class App extends Component {
   PUBLIC_KEY = 'pk_sandbox_XXXXXX';
